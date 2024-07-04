@@ -195,6 +195,112 @@ header {
   cursor: pointer;
 }
 
+.list-com-container {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0 4rem;
+  padding: 3rem;
+}
+
+.list-title h2 {
+  font-family: var(--font-ExCharis);
+  font-size: 4.8rem;
+}
+
+.List-Companies {
+  margin: 12rem 0;
+}
+
+.search-list form {
+  background-color: #dadada;
+  width: 588px;
+  border-radius: 8px;
+}
+.search-list form input {
+  padding: 2rem;
+  width: 100%;
+  outline: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  font-family: var(--font-ExCharis);
+}
+.search-list form input::placeholder {
+  color: #111;
+}
+.tabelformData {
+  margin-top: 4rem;
+  overflow-y: scroll;
+  height: 470px;
+}
+.tabelformData::-webkit-scrollbar {
+  width: 8px;
+}
+.tabelformData::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.tabelformData::-webkit-scrollbar-thumb {
+  background: #2042b6;
+  border-radius: 10px;
+}
+.tabelformData::-webkit-scrollbar-thumb:hover {
+  background: #2042b6;
+}
+
+.list-com-container {
+  box-shadow: 0px 66px 66px 0px #0000000a;
+}
+
+.tabelformData table {
+  width: 99%;
+}
+.tabelformData table th,
+.tabelformData table td {
+  font-size: 1.6rem;
+}
+.tabelformData table tbody tr {
+  margin-bottom: 1rem;
+}
+
+.tabelformData table tbody tr:nth-child(1) th {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.tabelformData table tbody tr:nth-child(1) th:nth-child(1) {
+  font-weight: 600;
+}
+.tabelformData table tbody tr td:first-child {
+  width: 300px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  font-family: var(--font-ExCharis);
+}
+
+.tabelformData table tbody tr:nth-child(even) {
+  background: #f3f3f3;
+  border-radius: 5px;
+}
+
+.downlod-Data-btn a {
+  outline: none;
+  background-color: #2042b6;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 1.6rem;
+  box-shadow: 0px 24px 36px 0px #00000040;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
 .w-futurelist,
 .w-Stories,
 .about-container {
@@ -359,6 +465,22 @@ header {
   min-height: 760px;
 }
 
+.footer-left {
+  flex: 3;
+}
+.footer-left h3 {
+  margin-top: 3rem;
+  padding-right: 15rem;
+}
+
+.footer-menu {
+  flex: 1;
+  margin-top: 3rem;
+}
+
+.Contact-info {
+  flex: 2;
+}
 .footer-left h3 {
   font-size: 4.8rem;
   font-family: var(--font-ExCharis);
@@ -388,4 +510,37 @@ header {
   .Portfolio-content .row .col-lg-2 {
     width: 20%;
   }
+}
+
+.footer-menu h4 {
+  color: #7d7f81;
+  font-size: 2rem;
+}
+
+.footer-menu ul li {
+  list-style: none;
+  margin: 1rem 0;
+}
+.footer-menu ul li a {
+  color: #2042b6;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.contact-addresss {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.Contact-info hr {
+  color: #9fa0a1;
+  background-color: #9fa0a1;
+  height: 2px;
+  max-width: 80%;
+}
+.contact-addresss h3 {
+  font-size: 2rem;
+}
+.contact-addresss p {
+  font-size: 1.8rem;
 }
