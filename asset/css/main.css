@@ -196,7 +196,8 @@ header {
 }
 
 .w-futurelist,
-.w-Stories {
+.w-Stories,
+.about-container {
   width: 100%;
   padding: 0 3rem;
   margin: 8rem 0;
@@ -232,6 +233,7 @@ header {
   background: #fff;
   border-radius: 8px;
   padding: 1rem;
+  margin-bottom: 12rem;
 }
 .m-container {
   max-width: 88%;
@@ -271,4 +273,119 @@ header {
   font-size: 1.7rem;
   margin-top: 1rem;
   text-decoration: none;
+}
+
+.about-content {
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.about-left h2 {
+  font-weight: 500;
+  font-size: 4.8rem;
+
+  font-family: var(--font-ExCharis);
+}
+.about-left h3 {
+  color: #7d7f81;
+  font-size: 3rem;
+  font-family: var(--font-ExCharis);
+}
+.about-left p {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  max-width: 78%;
+}
+.about-left a {
+  outline: none;
+  background-color: #2042b6;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 1.6rem;
+  box-shadow: 0px 24px 36px 0px #00000040;
+  border-radius: 50px;
+  text-decoration: none;
+}
+.about-left {
+  max-width: 55%;
+  margin: auto;
+}
+
+.Portfolio-content {
+  width: 100%;
+  padding: 0 3rem;
+  margin: 8rem 0;
+}
+
+.header-title h2 {
+  font-size: 4.8rem;
+  margin-bottom: 2rem;
+  font-family: var(--font-ExCharis);
+}
+
+.Portfolio-box {
+  background-color: #fff;
+  border-radius: 0.7rem;
+  height: 12rem;
+  margin-bottom: 1.8rem;
+}
+
+.footer-content {
+  background-color: #e6e6e6;
+  min-height: 760px;
+}
+
+/* .Portfolio-content .row .col-lg-2 {
+  width: 20%;
+} */
+
+.footer-m-container {
+  max-width: 88%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin: auto;
+  margin-top: 10rem;
+  min-height: 760px;
+}
+
+.footer-inner-content {
+  width: 100%;
+  padding: 4rem 3rem;
+  /* margin: 8rem 0; */
+  display: flex;
+  justify-content: space-between;
+  min-height: 760px;
+}
+
+.footer-left h3 {
+  font-size: 4.8rem;
+  font-family: var(--font-ExCharis);
+  font-weight: 400;
+}
+
+.footer-left p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.copywrite p {
+  color: #9fa0a1;
+  font-size: 1.4rem;
+}
+.copywrite a {
+  color: #9fa0a1;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .col-lg-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+  .Portfolio-content .row .col-lg-2 {
+    width: 20%;
+  }
 }
