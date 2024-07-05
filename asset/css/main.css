@@ -97,6 +97,7 @@ header {
 .menu-toogle-div .downloadbtn {
   background-color: #2042b6;
 }
+
 .items {
   margin-top: 4rem;
 }
@@ -122,6 +123,168 @@ header {
   text-decoration: none;
   margin-top: 4rem;
   display: block;
+}
+
+.line-chart {
+  margin: 8rem 0;
+}
+
+.line-chart-container {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0 4rem;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.content-wrapper {
+}
+
+.chart-left-content .accordion-button.collapsed {
+  background-color: transparent;
+  color: black;
+  border-radius: 10px;
+  font-family: var(--font-ExCharis);
+}
+
+.chart-left-content {
+  flex: 1;
+  padding: 1.5rem;
+  background: #eff3f6;
+  border-radius: 7px;
+}
+
+.chart-left-content .accordion-item {
+  border: none;
+  background: transparent;
+}
+
+.chart-left-content .accordion-button {
+  background: #2042b6;
+  font-size: 1.8rem;
+  color: #fff;
+  border-radius: 8px !important;
+  font-family: var(--font-ExCharis);
+}
+.chart-left-content .accordion-button:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.accordion-body p {
+  font-size: 1.1rem;
+}
+
+.chart-right-content {
+  flex: 4;
+  padding-top: 1rem;
+}
+
+.chart-boxs {
+  background-color: #f3f3f3;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.chart-boxs h4 {
+  color: #fc714d;
+  font-size: 3rem;
+  font-family: var(--font-ExCharis);
+}
+.chart-boxs div p {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+  color: #111;
+  font-weight: 500;
+}
+
+.chart-boxs div {
+  border-right: 4px solid #fc714d;
+  padding-right: 9px;
+}
+.right-mid-contnet {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.twobox div {
+  border-color: #615de3;
+}
+.twobox h4 {
+  color: #615de3;
+}
+
+.threebox div {
+  border-color: #7ca63a;
+}
+.threebox h4 {
+  color: #7ca63a;
+}
+.fourebox div {
+  border-color: #6f34a1;
+}
+
+.selected-min-content .select-box select {
+  width: 240px;
+  border-radius: 50px;
+  background-color: #2042b6;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.7rem;
+  position: relative;
+  outline: none;
+  border: none;
+  height: 30px;
+  line-height: 2rem;
+  padding-left: 2rem;
+  border: none;
+  font-weight: 300;
+}
+
+.selected-min-content .form-select {
+  --bs-form-select-bg-img: url('../img/arrow_drop_down.png');
+  display: block;
+  background-position: 200px 9px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.selected-pageInation .pagination {
+  background: #eff3f6;
+  padding: 10px 70px;
+  border-radius: 50px;
+  gap: 1rem;
+  padding-right: 10px;
+}
+.selected-pageInation .page-link {
+  border: none;
+  background: transparent;
+  color: #748da1;
+  font-size: 1.7rem;
+}
+.selected-pageInation .page-item .page-link {
+  border-radius: 40px;
+  padding: 8px 20px;
+}
+
+.selected-pageInation .page-item.active .page-link {
+  background-color: #2042b6;
+  box-shadow: 0px 4px 6px 0px #0000001f;
+}
+
+.selected-pageInation .page-item.active .page-link {
+  color: #fff;
+}
+.chat-btn div span:nth-child(1) {
+  width: 10px;
+  height: 10px;
+  background: #222;
+  display: inline-block;
+}
+
+.chat-btn div span {
+  font-size: 1.3rem;
 }
 
 .Area {
@@ -633,4 +796,57 @@ td {
 }
 .contact-addresss p {
   font-size: 1.8rem;
+}
+
+.slider-bottom-content {
+  max-width: 88%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin: auto;
+}
+.slider-bottom-content .wrapper-slider-control {
+  width: 100%;
+}
+
+.slide-b-ri-btn a {
+  outline: none;
+  background-color: #2042b6;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 1.6rem;
+  box-shadow: 0px 24px 36px 0px #00000040;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.slide-control-page {
+  margin-top: 2.7rem;
+}
+
+.slide-control-page {
+  margin-left: 12%;
+  flex-basis: 20%;
+}
+.slide-control-page p {
+  font-size: 1.6rem;
+  width: 70px;
+  margin: 0;
+}
+
+.slide-control-page .select-box select {
+  font-size: 1.5rem;
+  background: #fff;
+  color: #000000;
+  font-family: inherit;
+  box-shadow: 0px 24px 36px 0px #00000040;
+  width: 150px;
+  font-weight: 400;
+  height: 50px;
+  margin: 0;
+  margin-right: 10px;
+  margin-bottom: 0;
 }

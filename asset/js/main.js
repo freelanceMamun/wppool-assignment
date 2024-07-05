@@ -21,7 +21,7 @@ closeElement.addEventListener('click', (e) => {
 $('.center').slick({
   centerMode: true,
   centerPadding: '50px',
-  slidesToShow: 3,
+  slidesToShow: 2,
   arrows: true,
   nextArrow:
     '<button class="nextArrow"><i class="bi bi-arrow-right-short"></i></button>',
