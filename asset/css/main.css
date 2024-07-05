@@ -583,9 +583,15 @@ td {
   justify-content: center;
   padding: 5rem;
 }
+.bar-hr {
+  max-width: 83%;
+
+  margin: auto;
+}
 
 .w-Stories {
   margin: 15rem 0;
+  margin-bottom: 0;
 }
 
 .stories-box {
@@ -849,4 +855,15 @@ td {
   margin: 0;
   margin-right: 10px;
   margin-bottom: 0;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.right-top-content h2 {
+  font-family: var(--font-ExCharis);
+  font-size: 3.6rem;
 }
