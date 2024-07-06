@@ -29,7 +29,7 @@ $('.center').slick({
     '<button class="prevArrow"><i class="bi bi-arrow-left-short"></i></button>',
   responsive: [
     {
-      breakpoint: 1300,
+      breakpoint: 1500,
       settings: {
         arrows: true,
         centerMode: true,

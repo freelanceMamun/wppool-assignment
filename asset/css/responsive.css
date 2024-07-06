@@ -5,6 +5,46 @@
 
 @media (min-width: 1281px) {
   /* CSS */
+
+  .about-left {
+    max-width: 100%;
+    flex: 2;
+    padding-left: 4rem;
+  }
+
+  .state-container {
+    max-width: 96%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: auto;
+    margin-top: 0rem;
+  }
+  .head-content {
+    max-width: 78%;
+    margin-left: 6rem;
+    margin-bottom: 3rem;
+  }
+  .Slider {
+    max-width: 97%;
+    margin-top: 2rem;
+    margin-left: auto;
+  }
+
+  .m-container {
+    max-width: 97%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: auto;
+    margin-top: 10rem;
+  }
+  .footer-m-container {
+    max-width: 97%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: auto;
+    margin-top: 10rem;
+    min-height: 760px;
+  }
 }
 
 /* 
@@ -12,7 +52,7 @@
     ##Screen = B/w 1025px to 1280px
   */
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   html,
   body {
     font-size: 52.5%;
@@ -74,6 +114,12 @@
     margin: 0 2rem;
     padding: 1rem;
     overflow: hidden;
+  }
+
+  .Slider {
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-left: auto;
   }
 
   .content-wrapper {
@@ -284,7 +330,7 @@
   }
 
   .Portfolio-box img {
-    width: max-content;
+    width: 100%;
     object-fit: cover;
   }
   .collapse:not(.show) {
@@ -385,7 +431,7 @@
     ##Screen = B/w 768px to 1024px
   */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   /* CSS */
   html,
   body {
@@ -670,7 +716,7 @@
     background-repeat: no-repeat;
     background-position: 46% 8px;
     padding-bottom: 100px;
-    background-size: cover;
+    background-size: contain;
   }
 
   .slide-control-page .select-box select {
@@ -687,6 +733,12 @@
     margin-bottom: 0;
   }
 
+  .Slider {
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-left: auto;
+  }
+
   .slider-bottom-content {
     max-width: 100%;
     padding-left: 0rem;
@@ -694,7 +746,7 @@
     margin: auto;
   }
   .slide-control-page {
-    margin-left: 4%;
+    margin-left: 24%;
     flex-basis: 20%;
   }
 
