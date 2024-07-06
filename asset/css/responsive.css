@@ -48,6 +48,261 @@
     ##Screen = B/w 320px to 479px
   */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 480px) {
   /* CSS */
+
+  html,
+  body {
+    font-size: 32.5%;
+    overflow-x: hidden;
+  }
+
+  header {
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .content-area img {
+    max-width: 80%;
+  }
+  .h-banner {
+    background-color: #2042b6;
+    height: 80vh;
+    position: relative;
+  }
+
+  .Area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .content-area {
+    margin: 2rem;
+    text-align: center;
+    position: relative;
+    width: 100%;
+  }
+
+  .content-title {
+    position: absolute;
+    width: 100%;
+    top: 28%;
+    padding: 2rem;
+  }
+
+  .h-count-content {
+    width: max-content;
+    padding-left: 0rem;
+    min-width: max-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -2.5rem;
+  }
+
+  .navbar-brand img {
+    max-width: 130px;
+  }
+
+  .line-chart-container {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 2rem;
+    padding: 1rem;
+    overflow: hidden;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+  }
+  .right-mid-contnet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .selected-min-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .selected-min-content .select-box select {
+    width: 140px;
+    border-radius: 50px;
+    background-color: #2042b6;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1.7rem;
+    position: relative;
+    outline: none;
+    border: none;
+    height: 30px;
+    line-height: 2rem;
+    padding-left: 2rem;
+    border: none;
+    font-weight: 300;
+  }
+
+  .selected-pageInation .pagination {
+    background: #eff3f6;
+    padding: 8px 16px;
+    border-radius: 50px;
+    gap: 1rem;
+    padding-right: 0px;
+  }
+
+  .selected-min-content .select-box {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .selected-pageInation {
+    width: 100%;
+  }
+
+  .content-list {
+    flex-direction: column;
+  }
+  .search-list form {
+    background-color: #dadada;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .list-com-container {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 2rem;
+    padding: 2rem;
+  }
+  .tabelformData::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .downlod-Data-btn div {
+    display: flex;
+  }
+
+  .downlod-Data-btn a {
+    outline: none;
+    background-color: #2042b6;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 22px;
+    font-size: 1.6rem;
+    box-shadow: 0px 24px 36px 0px #00000040;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+  }
+  .tabelformData {
+    margin-top: 4rem;
+    overflow-y: scroll;
+    height: 470px;
+    overflow-x: scroll !important;
+  }
+
+  .search-list {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .head-content {
+    max-width: 100%;
+    margin-left: 0em;
+    margin-bottom: 3rem;
+  }
+  .w-futurelist,
+  .w-Stories,
+  .about-container,
+  .state-content {
+    width: 100%;
+    padding: 0 2rem;
+    margin: 8rem 0;
+  }
+
+  .future-brandList .row {
+    gap: 0 !important;
+    justify-content: start !important;
+  }
+  .future-brandList .row div {
+    margin-top: 5px;
+  }
+
+  .item-box img {
+    width: 100%;
+  }
+
+  .m-container {
+    max-width: 100%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin: auto;
+    margin-top: 10rem;
+  }
+
+  .stories-box {
+    margin-top: 8rem;
+  }
+
+  .about-content {
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 2rem;
+  }
+  .about-left {
+    max-width: 100%;
+    flex: 2;
+  }
+
+  .about-right img {
+    width: 100%;
+  }
+
+  .Portfolio-content {
+    width: 100%;
+    padding: 0 2rem;
+    margin: 8rem 0;
+  }
+
+  .Portfolio-box img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .footer-inner-content {
+    flex-direction: column;
+  }
+
+  .footer-m-container {
+    max-width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+    margin-top: 10rem;
+    min-height: 760px;
+  }
+
+  .footer-inner-content {
+    width: 100%;
+    padding: 4rem 0rem;
+    margin: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    min-height: 760px;
+  }
+
+  .footer-left h3 {
+    margin-top: 0rem;
+    padding-right: 0rem;
+  }
 }
