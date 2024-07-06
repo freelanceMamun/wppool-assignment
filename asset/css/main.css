@@ -302,6 +302,14 @@ header {
   mix-blend-mode: multiply;
   margin: auto;
 }
+
+.content-area img:nth-child(2) {
+  position: absolute;
+  mix-blend-mode: inherit;
+  left: 0;
+  right: 0;
+}
+
 .content-title {
   position: absolute;
   width: 100%;
@@ -393,9 +401,10 @@ header {
 }
 .tabelformData {
   margin-top: 4rem;
-  overflow-y: scroll;
+  overflow: auto;
   height: 470px;
 }
+
 .tabelformData::-webkit-scrollbar {
   width: 8px;
 }
@@ -408,6 +417,17 @@ header {
 }
 .tabelformData::-webkit-scrollbar-thumb:hover {
   background: #2042b6;
+}
+
+.tabelformData::-webkit-scrollbar-thumb:horizontal {
+  background: #2042b6;
+  border-radius: 10px;
+}
+
+.tabelformData::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+  background: f1f1f1;
 }
 
 .list-com-container {
