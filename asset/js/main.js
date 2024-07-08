@@ -1,6 +1,14 @@
 // NavMenu Sticky
 
-const navElement = document.querySelector('.header-main');
+const navElement = document.querySelector('.header-main ');
+
+window.addEventListener('scroll', (e) => {
+  if (window.scrollY > 200) {
+    navElement.classList.add('sticky-nav');
+  } else {
+    navElement.classList.remove('sticky-nav');
+  }
+});
 
 // ==== Toggle Nav
 

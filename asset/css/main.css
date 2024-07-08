@@ -26,15 +26,84 @@ header {
   top: 2rem;
   left: 0;
   width: 100%;
-  z-index: 1;
+
+  z-index: 99;
   padding-left: 4rem;
   padding-right: 4rem;
+  transition: all 0.7s;
+}
+.header-main.sticky-nav {
+  position: fixed;
+  top: 2rem;
+  left: 0;
+  width: 100%;
+}
+
+.navbar {
+  transition: all 0.7s;
+  opacity: 0.8;
+  border-radius: 10px;
+  padding: 14px 0;
+}
+
+.header-main.sticky-nav .navbar {
+  background-color: #fff;
+
+  opacity: 1;
+  box-shadow: 0px 5px 15px #c5c5c571;
+}
+
+.header-main.sticky-nav .logo1 {
+  display: none;
+}
+.header-main .logo2 {
+  display: none;
+}
+
+.header-main.sticky-nav .logo2 {
+  display: block;
+}
+
+.header-main.sticky-nav .downloadbtn {
+  color: #000000;
+  border-color: #2042b6;
+}
+
+.header-main.sticky-nav .share-btn {
+  border-color: #afcd80;
+}
+.header-main.sticky-nav .share-btn i {
+  color: #000000;
+}
+
+.header-main.sticky-nav .bar-1 {
+  display: none;
+}
+
+.bar-2 {
+  display: none;
+}
+.header-main.sticky-nav .bar-2 {
+  display: block;
+}
+
+.share-btn i {
+  font-size: 14px;
+  color: #fff;
 }
 
 .h-banner {
   background-color: #2042b6;
   height: 100vh;
   position: relative;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  gap: 1rem;
+  color: #fff;
 }
 
 .share-btn {
