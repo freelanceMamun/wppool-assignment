@@ -41,7 +41,7 @@ header {
 
 .navbar {
   transition: all 0.7s;
-  opacity: 0.8;
+  opacity: 1.8;
   border-radius: 10px;
   padding: 14px 0;
 }
@@ -63,9 +63,16 @@ header {
 .header-main.sticky-nav .logo2 {
   display: block;
 }
+.downloadbtn {
+  color: #000000;
+}
+
+.header-main.sticky-nav .text-bd {
+  color: #000000 !important;
+}
 
 .header-main.sticky-nav .downloadbtn {
-  color: #000000;
+  color: #ffffff;
   border-color: #2042b6;
 }
 
@@ -671,6 +678,7 @@ td {
   align-items: center;
   justify-content: center;
   padding: 5rem;
+  height: 150px;
 }
 .bar-hr {
   max-width: 83%;
@@ -784,6 +792,7 @@ td {
   border-radius: 0.7rem;
   height: 12rem;
   margin-bottom: 1.8rem;
+  height: 130px;
 }
 
 .footer-content {

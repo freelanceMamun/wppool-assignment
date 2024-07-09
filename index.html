@@ -44,7 +44,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link downloadbtn" href="#"
+                <a class="nav-link downloadbtn text-bd" href="#"
                   >Download the 2024 Report</a
                 >
               </li>
@@ -299,6 +299,7 @@
                 </div>
                 <div class="chart-wrapper">
                   <canvas id="myChart"></canvas>
+                  <div id="chart"></div>
                   <div
                     class="chat-btn d-flex align-items-center justify-content-center gap-4 mt-3"
                   >
@@ -1119,6 +1120,8 @@
 
     <script src="asset/plugin/slick.min.js"></script>
     <script src="asset/plugin/slick.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="asset/js/main.js"></script>
 
     <script>
@@ -1182,9 +1185,31 @@
         },
 
         options: {
+          responsive: true,
+          plugins: {
+            title: {
+              display: true,
+              text: 'Chart.js Line Chart',
+            },
+          },
+          interaction: {
+            mode: 'index',
+            intersect: false,
+          },
           scales: {
+            x: {
+              display: true,
+              title: {
+                display: true,
+                text: 'Month',
+              },
+            },
             y: {
-              beginAtZero: true,
+              display: true,
+              title: {
+                display: true,
+                text: 'Value',
+              },
             },
           },
         },
